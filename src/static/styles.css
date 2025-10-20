@@ -173,3 +173,30 @@ footer {
   font-style: italic;
   font-size: 14px;
 }
+
+/* Hide default bullets and position delete button */
+.participants-list {
+  list-style: none; /* remove bullets */
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-participant:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
